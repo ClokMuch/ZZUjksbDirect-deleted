@@ -1,52 +1,18 @@
 # ZZUjksbDirect-deleted
 关键词： **健康打卡 郑州大学 健康上报 jksb zzu**
 
-[![最后一次Action运行标记](https://github.com/ClokMuch/ZZUjksbDirect-deleted/actions/workflows/python-app.yml/badge.svg)](https://github.com/ClokMuch/ZZUjksbDirect-deleted/actions/workflows/python-app.yml)
-
-&emsp;&emsp;郑州大学健康上报/打卡的自动实现，本方法不再使用无头浏览器模拟登入，而是使用更直接的方式进行，~~并且更新了可用性~~本项目已跑路.
+*本项目已跑路.*
 
 # 使用说明
 
-## 简述
-+ 每日5次定时打卡：0-4时12分，建议自行错开分钟时间，避免服务器拥堵导致打卡失败；
-+ 所有关键的隐私信息使用 Secrets 保存（只有您一个人知道，除非您开启调试并泄露结果通知邮件），非隐私项目需要自行配置 config.json 设置；
-+ 支持打卡失败时邮件提醒（需要自行配制邮件信息）；
-+ 项目60天无更新时，自动执行可能会失效，需要再次开启（无需再次配置 Secrets 等）；
-+ 若您使用QQ邮箱作为发信邮箱，对应填写邮箱密码请参考QQ邮箱帮助中心步骤，创建授权码，并将授权码作为密码配置.
-
-## 开箱即用的操作指南
-**建议使用电脑进行操作**
-
-### 1. 移植仓库到您的账号 
-* 在本项目右上角处，点击 fork （注意不要点到数字）（也可以点击 star 成为观星者/天文学家 stargazer）
-
-### 2. 配置您的隐私信息：学号、密码、地址等
-* 增加发送邮箱的邮箱名：Name 输入`mail_id`，Value 输入您准备好发送消息邮箱，类似于：`polar10249620@hola.org` **注意：这是一个举例，并非真实的邮箱，如果您直接输入此邮箱，您将接收到错误信息**；
-* 增加发送邮箱的邮箱密码：Name 输入 `mail_pd`，Value 输入邮箱密码（QQ邮箱用户输入授权码）；
-* 增加需要处理的用户列表：Name 输入 `processing_pool`，Value 输入特定格式的用户信息：
-  > 学号，密码，城市码，地理位置，真实姓名，反馈邮箱（接收邮件），可选疫苗接种情况默认3次全部接种，可选的症状或特定情况描述！学号2，密码2，城市码2，地理位置2，真实姓名2，反馈邮箱2
-
-
-> **备注：新版 GitHub 更新了部分页面，若您在使用新版 GitHub ，对应 Secrets 参图：**
- **路径：Secrets - Actions - Repository secrets ，添加仍然在右上的位置.**
-
-**注意事项：当日进行核酸检测后应当在想起后主动再次打卡，并正确选择相应的条目.**
-
-**注意事项：分割每一位用户是中文叹号 `！`，分割单个用户具体信息是中文逗号`，`  单个用户使用时不需要添加中文叹号**
-
 举例：
-> 2009788745693，eG43&tQgDF2KzF#M，1012，蒙德地区.风起镇.郑州大学主校区，刘康，powerfoxinthelake@qq.com
-
-```
-
-### 3. 启用 Action ，开启定时打卡
-* 按图片指示顺序点击；
-* 随后点击`Run workflow`，运行一次 Action 测试效果.
-
-### 4. 备用：项目更新方法
-
-同步上游更改即可.
-
+> 3206500736，v+n@wInuoH@jtdGx，0025，蒙德.蒙德城.第二街道@蒙德.蒙德城，黄大聪明，super_intelligent_yellow@mondstadt.city
 
 # 结束
 * 项目已会删库跑路
+
+# Notice
+
+&emsp;&emsp;The strict policy published officially warns us, so the congeneric projects have beed stopped similarly. Deep-learning to recognize the image is my fail attempt, but it will work on other's hands easily.
+
+&emsp;&emsp;Terminally, a fool and light idea worked, but it can be blocked just like lift a finger. So this project will probably closed to protect my little idea, even if it's really pale.
